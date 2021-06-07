@@ -23,3 +23,12 @@ p2.textContent = 'ME TOO!';
 div.appendChild(p2);
 
 container.appendChild(div)
+
+/*METHOD 2 
+
+const btn = document.querySelector('#btn');
+btn.onclick = () => alert('Hello World');*/
+
+const btn = document.querySelector('#btn');
+btn.addEventListener('click', () => 
+    {alert('Hello World'); } );
